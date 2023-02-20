@@ -3,597 +3,552 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: #141d2f;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  height: 2.3rem;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  height: 4.3rem;
+  border-radius: 0.9rem;
+  margin-top: 4rem;
+  margin-left: 15rem;
+  background-color: #1e2a47;
+}
+.logo-sun {
+  margin-left: 36rem;
+  margin-top: 0rem;
+  border: none;
+  color: #90a4d4;
+  background-color: #141d2f;
+  cursor: pointer;
+}
+.placeholder {
+  margin-left: -25rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  background-color: #1e2a47;
+  border: none;
+}
+.search-btn {
+  width: 6rem;
+  height: 3.1rem;
+  margin-right: 0.6rem;
+  background-color: #60abff;
+  color: #ffff;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 10rem auto auto;
+  grid-gap: 1rem;
+  width: 50rem;
+  height: 29rem;
+  margin-left: 15rem;
+  margin-top: 3rem;
+  border-radius: 0.9rem;
+  background-color: #1e2a47;
+}
+.item1 {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.cat-photo {
+  width: 9rem;
+  height: 9rem;
+  border: 0.4rem;
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  border-radius: 12rem;
+}
+.item2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.otoCat-text {
+  margin-top: 1.4rem;
+  margin-left: 0.5rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.joined {
+  margin-top: -1.8rem;
+  margin-left: 25rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+.atotoCat {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-left: 0.5rem;
+  color: #0079ff;
+}
+.nobio {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+}
+.nobio-lorem {
+  display: none;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  width: 29rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+.item3 {
+  width: 33rem;
+  height: 6.3rem;
+  margin-top: 0.4rem;
+  background-color: #141d2f;
+  border-radius: 0.6rem;
+}
+.repos {
+  margin-left: 1.9rem;
+  margin-top: 1.5rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  color: #ffffff;
+}
+.pone {
+  margin-left: 1.9rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.folowers {
+  margin-left: 12rem;
+  margin-top: -3rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  color: #ffffff;
+}
+.ptwo {
+  margin-left: 12rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.following {
+  margin-left: 23rem;
+  margin-top: -3.1rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  color: #ffffff;
+}
+.pthree {
+  margin-left: 23rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.item4 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 28rem;
+  height: 7rem;
+}
+.location {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+.sanfrancisco {
+  margin-left: 1.4rem;
+  margin-top: -1.3rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  color: #ffffff;
+}
+.link-logo {
+  margin-top: 1rem;
+}
+.link {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: blue;
+}
+.tweeter-logo {
+  margin-left: 5rem;
+}
+.available {
+  margin-top: -3.7rem;
+  margin-left: 17.5rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  color: #ffffff5f;
+}
+.company-logo {
+  margin-top: 1.3rem;
+  margin-left: 15rem;
+}
+.github-link {
+  margin-top: -1rem;
+  padding-left: 0.8rem;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1440px) {
-  .main-container {
-    width: 90rem;
-    height: 64rem;
-    position: relative;
-    background-color: #c5e4e7;
+  .container-nav {
+    width: 45rem;
+    height: 4.3rem;
   }
-  .spliter {
-    position: absolute;
-    top: 10rem;
-    left: 33rem;
-    width: 5.4rem;
-    height: 3.3rem;
-    color: #3d6666;
+  .logo-sun {
+    margin-left: 30rem;
   }
-  .items-container {
-    position: absolute;
-    top: 18rem;
-    left: 7rem;
-    width: 57.5rem;
-    height: 30rem;
-    background-color: #fff;
-    box-shadow: 0 2rem 2.6rem rgba(79, 166, 175, 0.200735);
-    border-radius: 1.5rem;
+  .container {
+    width: 45rem;
   }
-  .input-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    position: absolute;
-    width: 23.6rem;
-    height: 24rem;
-    top: 3rem;
-    left: 2rem;
+  .searchLogo {
+    padding-left: 2rem;
   }
-  .bill-input {
-    width: 23.52rem;
+  .placeholder {
+    margin-left: -17rem;
   }
-  .bill {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
+  .search-btn {
+    margin-left: -3rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
   }
-  .input-dolar {
-    background-color: hsl(189, 41%, 97%);
-    width: 23.55rem;
-    height: 2.4rem;
-    margin-top: 0.4rem;
-    padding-left: 22rem;
-    border: none;
-    border-radius: 0.2rem;
+  .grid-container {
+    width: 45rem;
+    height: 27.7rem;
   }
-  .dolar-img {
-    position: absolute;
-    top: 2.7rem;
-    left: 0.4rem;
-  }
-  .select-buttons {
-    margin-top: 1.8rem;
-    width: 23.6rem;
-    height: 9.5rem;
-  }
-  .selecttip-text {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
-  }
-  .five {
-    position: absolute;
-    top: 8rem;
-    left: 0rem;
-    color: white;
-    background-color: #00474b;
+  .cat-photo {
     width: 7.3rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
+    height: 7.3rem;
   }
-  .five:hover {
-    background-color: #26c2ae;
+  .joined {
+    margin-left: 23rem;
   }
-  .ten:hover {
-    background-color: #26c2ae;
+  .item3 {
+    width: 30rem;
+    height: 5.3rem;
   }
-  .fifteen:hover {
-    background-color: #26c2ae;
-  }
-  .twentyfive:hover {
-    background-color: #26c2ae;
-  }
-  .fifty:hover {
-    background-color: #26c2ae;
-  }
-  .custom:hover {
-    background-color: #26c2ae;
-  }
-  .ten {
-    position: absolute;
-    top: 8rem;
-    left: 8rem;
-    color: white;
-    background-color: #00474b;
-    width: 7.3rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .fifteen {
-    position: absolute;
-    top: 8rem;
-    left: 16rem;
-    color: white;
-    background-color: #00474b;
-    width: 7.3rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .twentyfive {
-    position: absolute;
-    top: 12rem;
-    left: 0rem;
-    color: white;
-    background-color: #00474b;
-    width: 7.3rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .fifty {
-    position: absolute;
-    top: 12rem;
-    left: 8rem;
-    color: white;
-    background-color: #00474b;
-    width: 7.3rem;
-    height: 3rem;
-    border :none;
-    border-radius: 0.3rem;
-  }
-  .custom {
-    position: absolute;
-    top: 10.5rem;
-    left: 11rem;
-    color: #547878;
-    background-color: #f3f9fa;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .numb-people {
-    width: 23.6rem;
-    height: 6.5rem;
-    margin-top: 2rem;
-  }
-  .input-people {
-    background-color: #f3f9fa;
-    border-radius: 0.3rem;
-    border: none;
-    width: 23.56rem;
-    height: 3rem;
-    padding-left: 21.8rem;
-    margin-top: 0.5rem;
-  }
-  .person-img {
-    position: absolute;
-    top: 20.5rem;
-    left: 0.5rem;
-  }
-  .numpeople-text {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
-  }
-
-  .output-item {
-    background-color: #00474b;
-    position: absolute;
-    top: 3rem;
-    left: 30rem;
-    width: 25.8rem;
-    height: 25rem;
-    border-radius: 1rem;
-  }
-  .amount-fild {
-    width: 20.8rem;
-    height: 4.4rem;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  .tip-amount {
-    position: absolute;
-    top: 3.2rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #ffff;
-  }
-  .first-person {
-    position: absolute;
-    top: 4.6rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
+  .repos {
+    margin-left: 1.8rem;
+    margin-top: 1rem;
     font-size: 0.8rem;
-    line-height: 1.1rem;
-    color: #7f9d9f;
   }
-  .first-amount {
-    position: absolute;
-    top: 2.5rem;
-    left: 16.3rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 4.4rem;
-    color: #26c2ae;
+  .pone {
+    margin-left: 1.8rem;
+    font-size: 1.3rem;
   }
-  .total-field {
-    width: 20.8rem;
-    height: 4.4rem;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  .total-field {
-    width: 20.8rem;
-    height: 4.4rem;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  .total-text {
-    position: absolute;
-    top: 10rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #ffff;
-  }
-  .second-person {
-    position: absolute;
-    top: 11.5rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
+  .folowers {
     font-size: 0.8rem;
-    line-height: 1.1rem;
-    color: #7f9d9f;
   }
-  .second-amount {
-    position: absolute;
-    top: 9.5rem;
-    left: 16.4rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 4.4rem;
-    color: #26c2ae;
+  .following {
+    font-size: 0.8rem;
   }
-  .reset-button {
-    position: absolute;
-    width: 20.3rem;
-    height: 3rem;
-    top: 20rem;
-    left: 2.9rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    border-radius: 0.3rem;
-    border: none;
-    background-color: #0d686d;
-    color: #00474b;
+  .pthree {
+    font-size: 1.3rem;
   }
-  .reset-button:hover {
-    background-color: #26c2ae;
+  .item4 {
+    width: 25rem;
+  }
+  .sanfrancisco {
+    font-size: 0.9rem;
+  }
+  .available {
+    font-size: 0.9rem;
+  }
+  .github-link {
+    font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 375px) {
-  .main-container {
-    width: 23.43rem;
-    /* height: 20rem; */
-    position: relative;
-    background-color: #c5e4e7;
+@media screen and (max-width: 768px) {
+  .container-nav {
+    width: 35.8rem;
+    height: 1.3rem;
   }
-  .spliter {
-    position: absolute;
-    top: 10rem;
-    left: 12rem;
-    width: 5.4rem;
-    height: 3.3rem;
-    color: #3d6666;
+  .logo-sun {
+    margin-left: 28rem;
   }
-  .items-container {
-    position: absolute;
-    top: 18rem;
-    left: 0rem;
-    width: 23.44rem;
-    height: 52rem;
-    background-color: cadetblue;
-    /* background-color: #fff; */
-    box-shadow: 0 2rem 2.6rem rgba(79, 166, 175, 0.200735);
-    border-radius: 1.5rem;
+  .container {
+    width: 35.8rem;
   }
-  .input-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    position: absolute;
-    width: 23.6rem;
-    height: 24rem;
-    top: 3rem;
-    left: 2rem;
+  .searchLogo {
+    padding-left: 1.5rem;
   }
-  .bill-input {
-    width: 19.8rem;
-    height: 4.8rem;
+  .placeholder {
+    margin-left: -20rem;
   }
-  .bill {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
-  }
-  .input-dolar {
-    position: absolute;
-    background-color: #f3f9fa;
-    border-radius: 0.3rem;
-    border: none;
-    width: 20rem;
-    padding-left: 18rem;
-  }
-  .dolar-img {
-    position: absolute;
-    top: 3.6rem;
-    left: 0.6rem;
-  }
-  .select-buttons {
-    position: absolute;
-    top: 5rem;
-    width: 20rem;
-    height: 13.5rem;
-  }
-  .selecttip-text {
-    display: none;
-    position: absolute;
-    top: 1rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
-  }
-  .five {
-    position: absolute;
-    top: 2.5rem;
-    left: 0rem;
-    color: white;
-    background-color: #00474b;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .ten {
-    position: absolute;
-    top: 2.5rem;
-    left: 10.9rem;
-    color: white;
-    background-color: #00474b;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .fifteen {
-    position: absolute;
-    top: 6.5rem;
-    left: 0rem;
-    color: white;
-    background-color: #00474b;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .twentyfive {
-    position: absolute;
-    top: 6.5rem;
-    left: 10.9rem;
-    color: white;
-    background-color: #00474b;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .fifty {
-    position: absolute;
-    top: 10.5rem;
-    left: 0rem;
-    color: white;
-    background-color: #00474b;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .custom {
-    position: absolute;
-    top: 10.5rem;
-    left: 11rem;
-    color: #547878;
-    background-color: #f3f9fa;
-    width: 9rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.3rem;
-  }
-  .five:hover {
-    background-color: #26c2ae;
-  }
-  .ten:hover {
-    background-color: #26c2ae;
-  }
-  .fifteen:hover {
-    background-color: #26c2ae;
-  }
-  .twentyfive:hover {
-    background-color: #26c2ae;
-  }
-  .fifty:hover {
-    background-color: #26c2ae;
-  }
-  .custom:hover {
-    background-color: #26c2ae;
-  }
-  .numb-people {
-    position: absolute;
-    top: 20.5rem;
-    width: 20rem;
-    height: 4.8rem;
-    margin-top: 2rem;
-  }
-  .input-people {
-    position: absolute;
-    background-color: #f3f9fa;
-    border-radius: 0.3rem;
-    border: none;
-    width: 20rem;
-    padding-left: 18rem;
-  }
-  .person-img {
-    position: absolute;
-    top: 5rem;
-    left: 2rem;
-  }
-  .numpeople-text {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #5e7a7d;
-  }
-
-  .output-item {
-    position: absolute;
-    background-color: #00474b;
-    position: absolute;
-    top: 34rem;
-    left: 1.7rem;
-    width: 20.4rem;
-    height: 16rem;
-    border-radius: 0.93rem;
-  }
-  .amount-fild {
-    width: 17.5rem;
-    height: 3rem;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  .tip-amount {
-    position: absolute;
-    top: 2rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #ffff;
-  }
-  .first-person {
-    position: absolute;
-    top: 3.5rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.8rem;
-    line-height: 1.1rem;
-    color: #7f9d9f;
-  }
-  .first-amount {
-    position: absolute;
-    top: 1.5rem;
-    left: 14rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3rem;
-    color: #26c2ae;
-  }
-  .total-field {
-    width: 17.5rem;
-    height: 3rem;
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  .total-text {
-    position: absolute;
-    top: 7rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #ffff;
-  }
-  .second-person {
-    position: absolute;
-    top: 8.5rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.8rem;
-    line-height: 1.1rem;
-    color: #7f9d9f;
-  }
-  .second-amount {
-    position: absolute;
-    top: 6.5rem;
-    left: 14rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.9rem;
-    color: #26c2ae;
-  }
-  .reset-button {
-    position: absolute;
-    width: 16.5rem;
-    height: 3rem;
-    top: 11rem;
-    left: 2.5rem;
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
+  .search-btn {
+    width: 5rem;
+    height: 1.5rem;
+    padding: 1rem 4.7rem 2.5rem 1.8rem;
+    margin: 0.3rem 0.6rem 0.3rem -11rem;
     font-size: 1.2rem;
-    line-height: 1.8rem;
-    border-radius: 0.3rem;
-    border: none;
-    /* background-color: #26c2ae; */
-    color: #00474b;
   }
-  .reset-button:hover {
-    background-color: #26c2ae;
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: 10rem auto auto;
+    width: 35.8rem;
+    height: 30rem;
+  }
+  .item1 {
+    grid-column: 1/2;
+  }
+  .cat-photo {
+    width: 7.3rem;
+    height: 7.3rem;
+  }
+  .item2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .otoCat-text {
+    margin-left: 11rem;
+  }
+  .joined {
+    margin-top: 2rem;
+    margin-left: 11rem;
+  }
+  .atotoCat {
+    margin-left: 11rem;
+    margin-top: -3.5rem;
+  }
+  .nobio {
+    display: none;
+  }
+  .nobio-lorem {
+    display: inline-block;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+  }
+  .item3 {
+    width: 30rem;
+    height: 5.3rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
+  }
+  .repos {
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .pone {
+    margin-left: 1.8rem;
+    font-size: 1.3rem;
+  }
+  .folowers {
+    font-size: 0.8rem;
+  }
+  .following {
+    font-size: 0.8rem;
+  }
+  .pthree {
+    font-size: 1.3rem;
+  }
+  .item4 {
+    margin-left: -11rem;
+    width: 25rem;
+  }
+  .sanfrancisco {
+    font-size: 0.9rem;
+  }
+  .link-logo {
+    margin-top: 1rem;
+  }
+  .available {
+    font-size: 0.9rem;
+  }
+  .github-link {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width:375px) {
+  .container-nav {
+    width: 20.4rem;
+    height: 2.3rem;
+  }
+  .logo-sun {
+    margin-left: 10rem;
+  }
+  .placeholder{
+    margin-left: -10rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+  }
+  .search-btn {
+    padding: 0.4rem 4.3rem 1.9rem 1.1rem;
+    margin: 0.3rem 0.6rem 0.3rem -11rem;
+    font-size: 1.1rem;
+  }
+  .container{
+    width: 20.4rem;
+    height: 3.7rem;
+  }
+  .grid-container {
+    width: 20.4rem;
+    height: 32.3rem;
+  }
+  .cat-photo {
+    width: 4.3rem;
+    height: 4.3rem;
+  }
+  .otoCat-text {
+    margin-left: 8rem;
+    font-size: 1rem;
+  }
+  .atotoCat {
+    margin-left: 8rem;
+    margin-top: -3rem;
+    font-size: 0.8rem;
+  }
+  .joined {
+    margin-top: 0.8rem;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+  }
+  .nobio-lorem {
+    display: inline-block;
+    width: 16.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  .item3 {
+    width: 17.4rem;
+    height: 5.3rem;
+    margin-top: 2rem;
+    margin-left: -5.5rem;
+  }
+  .repos {
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+  }
+  .pone {
+    margin-left: 1.8rem;
+    font-size: 1rem;
+  }
+  .folowers {
+    font-size: 0.6rem;
+    margin-left: 7rem;
+  }
+  .ptwo{
+    margin-left: 7rem;
+    font-size: 0.88rem;
+  }
+  .following{
+    margin-left: 12rem;
+    font-size:0.6;
+  }
+  .pthree {
+    margin-left: 12rem;
+    font-size: 1rem;
+  }
+  .item4 {
+    margin-left: -5rem;
+    width: 17rem;
+    height: 8rem;
+  }
+  .sanfrancisco{
+    margin-top: -1.4rem;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+  }
+  .location {
+    margin: 0;
+    margin-top: -3rem;
+  }
+  .link-logo {
+    margin-top: 1rem;
+  }
+  .link {
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .tweeter-logo {
+    margin-left: 1rem;
+  }
+  .available {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-size: 0.8rem;
+  }
+  .company-logo {
+    margin-top: 1.3rem;
+    margin-left: 0.2rem;
+  }
+  .github-link {
+    /* margin-top: -1rem; */
+    margin-left: 0rem;
+    font-size: 0.8rem; 
   }
 }
